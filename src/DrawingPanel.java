@@ -32,14 +32,6 @@ public class DrawingPanel extends JPanel {
                 ind++;
             }
         }
-
-
-//        for(int i=0;i<=640;i+=16){
-//            g.drawLine(i,0,i,640);
-//        }
-//        for(int i=0;i<=640;i+=16){
-//            g.drawLine(0,i,640,i);
-//        }
         callfps();
 
     }
