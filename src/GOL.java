@@ -17,7 +17,7 @@ public class GOL extends JFrame {
         d.initialize();
         d.cellAliveR();
         setSize(w,h);
-        setTitle("why did I start this project :)");
+        setTitle("Game of Life");
         add(d);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setLocationRelativeTo(null);

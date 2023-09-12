@@ -17,13 +17,11 @@ public class DrawingPanel extends JPanel {
 
         g.setColor(Color.white);
 
-//        f++;
-//        if(f%100==0)cellAliveR();
-//        cellAliveR();
+
         countNeighbours();
         updateNeighbours();
         countNeighboursDown();
-//        pretty();
+
         int ind=0;
         for(int i=0;i<it;i++){
             for(int j=0;j<it;j++){
